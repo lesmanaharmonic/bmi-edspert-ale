@@ -312,7 +312,7 @@ class GenderIconText extends StatelessWidget {
         Icon(
           icon,
           size: 80,
-          color: Colors.white,
+          color: Colors.red.shade400,
         ),
         const SizedBox(
           height: 15,
