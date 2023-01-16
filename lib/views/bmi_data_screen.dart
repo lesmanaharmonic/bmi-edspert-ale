@@ -280,6 +280,10 @@ class BmiCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         decoration: BoxDecoration(
+            gradient: LinearGradient(
+                colors: [Color(0xff272a4e), Color(0xff000000)],
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter),
             color: const Color(0xff272a4e),
             borderRadius: BorderRadius.circular(15),
             border: Border.all(
